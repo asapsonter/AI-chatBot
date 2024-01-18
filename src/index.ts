@@ -1,20 +1,16 @@
 import express from 'express';
+import { config } from 'dotenv';
 
 
+
+config();
 const app = express(); //express var
 
-// get 
-// put 
-// post 
-// del
+
+// middlewares
 app.use(express.json());
-app.delete('/user/:id', (req, res, next) => {
 
-  console.log(req.params.id);
-  return res.send('hello');
-  
-});
-
+// connect to listner
 app.listen(3000, ()=> console.log("server Open now ")); // server port listening
 
 
