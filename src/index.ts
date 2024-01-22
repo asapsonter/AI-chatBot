@@ -6,12 +6,11 @@ const PORT = process.env.PORT || 5000;
 connectToDatabase()
 .then(() => {
 app.listen(3000, ()=> 
-console.log("server Open connected to databasehand ")); // server port listening
+console.log("server Open connected to database ")); // server port listening
 
 })
-.catch((err) => console.log(err)); // server
+.catch((err) => console.log(err)); //catch  server listen error
 
-// connect to listner
 
 
 
