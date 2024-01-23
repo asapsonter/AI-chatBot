@@ -1,6 +1,0 @@
-OPEN_AI_SECRET=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
-OPEN_AI_ORG_ID=org-iFE6maer3zZ9TgmUQCSk2Mia
-MONGODB_URL=mongodb+srv://asapsonter:9hLeDBuXpkoy9zFp@chatbot.vxlfmar.mongodb.net/chatbot?retryWrites=true&w=majority
-JWT_SECRET=YOUR_SECRET
-COOKIE_SECRET=YOUR_SECRET
-PORT=5000
